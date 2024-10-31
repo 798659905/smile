@@ -4,17 +4,19 @@ body {
   }
   
   label {
-    font-weight: bold;  
+    font-weight: bold; 
+    font-size: xx-large; 
   }
   
   
   input[type="text"] {
-    padding: 5px;
-    width: 150px;
+    padding: 25px;
+    width: 300px;
   }
   
   p {
-    background: #FFC125;
+    font-size: xx-large;
+    background: #63d3f0;
     color: #000000;
     padding: 20px;
     visibility: hidden;
@@ -22,8 +24,19 @@ body {
   .A{
     position: absolute;
     background-color:cornflowerblue;
-    outline: solid 5px black;
+    outline: solid 2px black;
     right: 30%;
     left: 30%;
-    top: 30%;
+    top: 20%;
+  }
+  .B{
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+
+  .randomize{
+    font-size: xx-large;
+  }
+
+  #customname{
+    font-size: xx-large;
   }
