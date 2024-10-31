@@ -1,0 +1,29 @@
+
+body {
+    width: 500px;
+  }
+  
+  label {
+    font-weight: bold;  
+  }
+  
+  
+  input[type="text"] {
+    padding: 5px;
+    width: 150px;
+  }
+  
+  p {
+    background: #FFC125;
+    color: #000000;
+    padding: 20px;
+    visibility: hidden;
+  }
+  .A{
+    position: absolute;
+    background-color:cornflowerblue;
+    outline: solid 5px black;
+    right: 30%;
+    left: 30%;
+    top: 30%;
+  }
